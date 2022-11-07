@@ -1,7 +1,7 @@
 # Programando-linguagem-web
 OLINDAMIR
 
-##INDEX.HTML
+## INDEX.HTML
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
@@ -277,7 +277,7 @@ button[disabled=disabled], button:disabled {
 	display: none;
 }
 
-##RESET.CSS
+## RESET.CSS
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -328,8 +328,8 @@ table {
 	border-spacing: 0;
 }
 
-##JS
-#buscar-pacientes.js
+## JS
+# buscar-pacientes.js
 var botaoAdicionar = document.querySelector("#buscar-pacientes");
 
 botaoAdicionar.addEventListener("click", function() {
@@ -356,7 +356,7 @@ botaoAdicionar.addEventListener("click", function() {
     xhr.send();
 });
 
-#calcula-imc.js
+# calcula-imc.js
 var titulo = document.querySelector(".titulo");
 titulo.textContent = "Aparecida Nutricionista";
 
@@ -422,7 +422,7 @@ function validaAltura(altura) {
     }
 }
 
-#filtra.js
+# filtra.js
 var campoFiltro = document.querySelector("#filtrar-tabela");
 
 campoFiltro.addEventListener("input", function() {
@@ -449,7 +449,7 @@ campoFiltro.addEventListener("input", function() {
     }
 });
 
-#form.js
+# form.js
 var botaoAdicionar = document.querySelector("#adicionar-paciente");
 botaoAdicionar.addEventListener("click", function(event) {
     event.preventDefault();
